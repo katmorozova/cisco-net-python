@@ -21,6 +21,10 @@ print("Monty", "Python.", sep="*", end="*\n")
 print("Programming","Essentials","in", sep="***", end="...")
 print("Python")
 
+#!!!!!!!
+#Los argumentos de palabras clave deben pasarse después de cualquier argumento posicional requerido
+#!!!!!!!
+
 print("    *")
 print("   * *")
 print("  *   *")
@@ -50,6 +54,8 @@ print("   ***   ***   " * 2)
 print("     *   *     " * 2)
 print("     *   *     " * 2)
 print("     *****     " * 2)
+
+#
 
 
 
