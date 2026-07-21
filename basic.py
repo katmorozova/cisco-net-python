@@ -40,7 +40,16 @@ print("     *   \n    * *  \n   *   *  \n  *     * ")
 print(" *       * \n***     ***")
 print("  *     *\n  *     *\n  *******")
 
-
+#duplica la flecha, colocando ambas flechas una al lado de la otra
+#una cadena se puede multiplicar usando el siguiente truco: "string" * 2 producirá "stringstring"
+print("       *       " * 2)
+print("      * *      " * 2)
+print("     *   *     " * 2)
+print("    *     *    " * 2)
+print("   ***   ***   " * 2)
+print("     *   *     " * 2)
+print("     *   *     " * 2)
+print("     *****     " * 2)
 
 
 
