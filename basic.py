@@ -34,3 +34,20 @@ print("  *****")
 print("    *   \n   * *  \n  *   * ")
 print(" *     * \n***   ***")
 print("  *   *\n  *   *\n  *****")
+
+#hacer que la flecha sea el doble de grande (pero mantener las proporciones)
+print("     *   \n    * *  \n   *   *  \n  *     * ")
+print(" *       * \n***     ***")
+print("  *     *\n  *     *\n  *******")
+
+
+
+
+
+
+
+
+
+
+
+
