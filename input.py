@@ -64,6 +64,32 @@ print("El resultado de la división es:", var_a / var_b)
 print("\n¡Eso es todo, amigos!")
 
 
+"""
+La tarea es preparar un código simple para evaluar o encontrar el tiempo final de un periodo de tiempo dado, expresándolo en horas y minutos. La hora de inicio se da como un par de horas (0..23) y minutos (0..59). El resultado debe ser mostrado en la consola.
+
+Por ejemplo, si el evento comienza a las 12:17 y dura 59 minutos, terminará a las 13:16.
+"""
+
+hour = int(input("Hora de inicio (horas): "))
+mins = int(input("Minuto de inicio (minutos): "))
+dura = int(input("Duración del evento (minutos): "))
+
+# encuentra el número total de minutos
+total_mins = mins + dura
+# encuentra el número de horas ocultas en los minutos y actualiza las horas
+total_hour = hour + (total_mins // 60)
+# corrige los minutos para que estén en un rango de (0..59)
+final_mins = total_mins % 60
+# corrige las horas para que estén en un rango de (0..23)
+final_hour = total_hour % 24
+print(hour, ":", mins, sep='')
+
+
+
+
+
+
+
 
 
 
